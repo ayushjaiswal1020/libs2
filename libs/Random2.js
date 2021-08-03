@@ -37,7 +37,7 @@ publish({
     let random_int = rndInt(0, messages.length-1);
  
     Api.sendPhoto({
-photo: "https://carbonnowsh.herokuapp.com/?code="+message+"&backgroundColor="+messages[random_int]+",
+photo: "https://carbonnowsh.herokuapp.com/?code="+message+"&backgroundColor="+messages[random_int]+"",
 caption: "*📝 Congrats! Your Carbon Page Is Ready...*",
 parse_mode: "markdown"
 })
