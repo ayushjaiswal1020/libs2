@@ -36,7 +36,7 @@ publish({
 
     let random_int = rndInt(0, messages.length-1);
  
-    let random = messages[random_int] ;
+    
   },
 
   randomInt: rndInt,
