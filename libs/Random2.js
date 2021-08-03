@@ -25,7 +25,7 @@ function rndInt(min, max){
 }
 
 publish({ 
-  sendMessage: function (messages){
+  carbon: function (messages){
     var err_msg = 'need pass messages array. E.g: ["Hello", "Hi!"]';
     if(!messages){
       Bot.sendMessage(err_msg); 
@@ -36,7 +36,11 @@ publish({
 
     let random_int = rndInt(0, messages.length-1);
  
-    
+    Api.sendPhoto({
+photo: "https://carbonnowsh.herokuapp.com/?code="+message+"&backgroundColor="+messages[random_int]+",
+caption: "*📝 Congrats! Your Carbon Page Is Ready...*",
+parse_mode: "markdown"
+})
   },
 
   randomInt: rndInt,
