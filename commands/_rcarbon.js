@@ -9,7 +9,7 @@
   aliases: 
 CMD*/
 
-var c = "Black","Navy","DarkBlue","MediumBlue","Blue","DarkGreen","Green","Teal","DarkCyan","DeepSkyBlue","DarkTurquoise","MediumSpringGreen","Lime","SpringGreen","Aqua","Cyan","MidnightBlue","DodgerBlue","LightSeaGreen","ForestGreen","SeaGreen","DarkSlateGray","DarkSlateGrey","LimeGreen","MediumSeaGreen","Turquoise","RoyalBlue","SteelBlue","DarkSlateBlue","MediumTurquoise","Indigo",
+Libs.Random2.sendMessage(["Black","Navy","DarkBlue","MediumBlue","Blue","DarkGreen","Green","Teal","DarkCyan","DeepSkyBlue","DarkTurquoise","MediumSpringGreen","Lime","SpringGreen","Aqua","Cyan","MidnightBlue","DodgerBlue","LightSeaGreen","ForestGreen","SeaGreen","DarkSlateGray","DarkSlateGrey","LimeGreen","MediumSeaGreen","Turquoise","RoyalBlue","SteelBlue","DarkSlateBlue","MediumTurquoise","Indigo",
     "DarkOliveGreen",
     "CadetBlue",
     "CornflowerBlue",
@@ -119,7 +119,7 @@ var c = "Black","Navy","DarkBlue","MediumBlue","Blue","DarkGreen","Green","Teal"
     "PapayaWhip",
     "LavenderBlush",
     "SeaShell",
-    "Cornsilk","LemonChiffon","FloralWhite","Snow","Yellow","LightYellow","Ivory", "White"
+    "Cornsilk","LemonChiffon","FloralWhite","Snow","Yellow","LightYellow","Ivory", "White"])
 
 Bot.sendMessage(c)/*
 Api.sendPhoto({
